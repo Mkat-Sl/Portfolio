@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+#contacts{
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+}
+form{
+    background-color: aqua;
+    display: block;
+    padding: 2em;
+    width: min-content;
+}
+input{
+    background-color: blue;
+}
+label
+{
+    margin: 2em;
+    position: relative;
+    left: 0;
+}
+.socialMedia{
+   background-color: green;
+   grid-column: 2;
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+
+
+   
+@media(max-width: 230px){
+    footer h4{
+        background-color: aquamarine;
+    }
+    p{
+        background-color: aqua;
+    }
+}
