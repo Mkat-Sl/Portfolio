@@ -6,9 +6,23 @@
 
 body{
     padding: 2em;
-    /* background-color: #D46140; */
     background-color: #191e39;
-    color: #ffffff;}
+    color: #ffffff;
+}
+#home{
+    margin: 2em;
+}
+blockquote, article{
+    margin: 2em;
+    /* padding: 2em; */
+    font-size: 20px;
+    line-height: 2em;
+}
+article p{
+    margin: 2em;
+    font-size: 20px;
+    font-weight: 200;
+}
 blockquote{
     margin-top: 2em;
     padding-top: 2em;
@@ -21,8 +35,13 @@ blockquote{
     font-size: 15px;
 
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 blockquote span{
-    color: #D46140;
+    color: #FF6565;
     font-size: 20px;
 }
 header{
@@ -43,7 +62,7 @@ nav a{
     box-sizing: border-box;
     height: auto;
     width: 100%;
-    color: #D46140;
+    color:#FF6565;
     /* padding: 20px 30px; */
     justify-content: flex-start;
   
@@ -53,6 +72,9 @@ nav a{
 
 @media (max-width:450px){
    
+    article p{
+        text-align: center;
+    }
     nav ul{
         display: inline-block;
         padding: 2em;
@@ -93,7 +115,7 @@ nav a{
     }
     #base .top, .middle, .bottom{
         display: block;
-        background-color: #D46140;
+        background-color: #FF6565;
         height: 4px;
         width: 30px;
         position: absolute;
@@ -147,9 +169,7 @@ ul{
     padding: 1em;
 }
 .bio strong{
-    color: #D46140;
-    text-transform: uppercase;
-    text-decoration: underline;
+    color: #FF6565;
 }
 
 /* @media (max-width: 320px) {
@@ -196,11 +216,11 @@ ul{
 } */
 
 footer h4{
-    color: #D46140;
+    color: #FF6565;
     margin-top: 2em;
 }
 footer i{
-    color: #D46140;
+    color: #FF6565;
     padding-right: 1em;
 }
 footer a{
@@ -212,4 +232,7 @@ footer a{
 footer p{
     padding: 1em;
     text-align: center;
+}
+footer .mishkat{
+    color: #FF6565;
 }
