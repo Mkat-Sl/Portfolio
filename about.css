@@ -16,6 +16,23 @@ body{
         align-items: center;
     }
 }
+@media (min-width:500px){
+    img{
+        margin-left: 15em;
+        margin-bottom: 6em;
+        width: 300px;
+    }
+}
+img{
+    border-radius: 20%;
+    border:#FF6565 groove .2em ;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 5em;
+    margin-bottom: 3em;
+}
+
 #introduction p{
     text-align:center;
     font-size: 20px;
